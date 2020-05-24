@@ -1,0 +1,16 @@
+<!-- 
+ 
+ File: modules.xml
+ Author: Aaron Teo
+ Copyright (c) 2020 Aaron Teo
+ 
+ -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SalesSystemProject.iml" filepath="$PROJECT_DIR$/SalesSystemProject.iml" />
+    </modules>
+  </component>
+</project>
