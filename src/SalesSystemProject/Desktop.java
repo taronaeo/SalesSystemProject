@@ -34,9 +34,9 @@ public class Desktop extends Computer {
     Pattern pattern = Pattern.compile("[^A-Za-z0-9]");
 
     while (true) {
-      System.out.println(Helper.repeatString(49, "*"));
+      System.out.println(Helper.repeatString(49, "="));
       System.out.println("Information for new Desktop");
-      System.out.println(Helper.repeatString(49, "*"));
+      System.out.println(Helper.repeatString(49, "="));
 
       System.out.printf("%-28s: ", "What is the Computer ID");
       desktop.computer_id = scanner.nextLine().toUpperCase().trim();
