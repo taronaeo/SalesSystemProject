@@ -34,6 +34,7 @@ public class Desktop extends Computer {
     Pattern pattern = Pattern.compile("[^A-Za-z0-9]");
 
     while (true) {
+      System.out.println();
       System.out.println(Helper.repeatString(49, "="));
       System.out.println("Information for new Desktop");
       System.out.println(Helper.repeatString(49, "="));

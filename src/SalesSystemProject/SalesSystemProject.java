@@ -43,8 +43,6 @@ public class SalesSystemProject {
         continue;
       }
 
-      System.out.println();
-
       switch (selection) {
         case 1:
           computers[computerCounter] = Desktop.addInformation();
@@ -60,7 +58,15 @@ public class SalesSystemProject {
           int desktopCount = 0;
           int laptopCount = 0;
 
+          System.out.println();
+
           for (int i = 0; i < computers.length; i++) {
+            if (i == 0 && computers[i] == null) {
+              System.err.println("No computers added, yet.");
+              System.err.println();
+              break;
+            }
+
             if (computers[i] == null) break;
 
             if (computers[i].computer_id.charAt(0) == 'D') System.out.println("Desktop " + (++desktopCount));
